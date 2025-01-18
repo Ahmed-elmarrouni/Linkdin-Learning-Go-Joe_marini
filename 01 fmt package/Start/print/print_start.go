@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// TODO: Print a simple string, no newline
 
@@ -12,6 +14,7 @@ func main() {
 	const a, b, c = 5, 5, 10
 
 	// TODO: print a slice of data
-	//items := []int{10, 20, 40, 80}
-
+	items := []int{10, 20, 40, 80}
+	lenghth, err := fmt.Println(items)
+	fmt.Println(lenghth, err)
 }
